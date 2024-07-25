@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AV Fusion - Fusing Tomorrow with Today</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Aaron+Serif&family=Roboto+Slab&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="title">
+            <h1>AV Fusion</h1>
+            <p>Fusing Tomorrow with Today</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#mens-fashion">Men's Fashion</a></li>
+                <li><a href="#womens-fashion">Women's Fashion</a></li>
+                <li><a href="#kids-fashion">Kids' Fashion</a></li>
+                <li><a href="#home-decor">Home Decor</a></li>
+                <li><a href="#home-essentials">Home Essentials</a></li>
+                <li><a href="#pest-control">Pest Control</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="mens-fashion">
+        <h2>Men's Fashion</h2>
+        <div class="product-row">
+            <div class="product">
+                <a href="https://teeshopper.in/products/Independence-Day-Tee--Unisex-T-Shirt" target="_blank">
+                    <img src="https://github.com/yourusername/yourrepository/raw/main/images/AdsImage%20(7).png" alt="Independence Day Tee">
+                    <h3>Independence Day Tee</h3>
+                    <p>Price: ₹482</p>
+                    <p>Size: XS, S, M, L, XL, XXL, XXXL</p>
+                </a>
+                <button onclick="addToCart('Independence Day Tee', 482)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <a href="https://teeshopper.in/products/STAY-WILD--Oversized-T-Shirt" target="_blank">
+                    <img src="path/to/mens-fashion-product2.jpg" alt="STAY WILD Oversized T-Shirt">
+                    <h3>STAY WILD Oversized T-Shirt</h3>
+                    <p>Price: ₹577</p>
+                    <p>Size: XS, S, M, L, XL, XXL, XXXL</p>
+                </a>
+                <button onclick="addToCart('STAY WILD Oversized T-Shirt', 577)">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product-row">
+            <div class="product">
+                <a href="https://teeshopper.in/products/Life-is-short--FULL-SLEEVE-T-SHIRT" target="_blank">
+                    <img src="path/to/mens-fashion-product3.jpg" alt="Life is Short Full Sleeve T-Shirt">
+                    <h3>Life is Short Full Sleeve T-Shirt</h3>
+                    <p>Price: ₹649</p>
+                    <p>Size: XS, S, M, L, XL, XXL, XXXL</p>
+                </a>
+                <button onclick="addToCart('Life is Short Full Sleeve T-Shirt', 649)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="path/to/mens-fashion-product4.jpg" alt="Product Name 4">
+                <h3>Product Name 4</h3>
+                <p>Price: ₹0000</p>
+                <p>Size: XS, S, M, L, XL, XXL, XXXL</p>
+                <button disabled>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Other categories go here -->
+
+    <script>
+        function addToCart(productName, price) {
+            alert(`Added ${productName} to cart for ₹${price}`);
+        }
+    </script>
+</body>
+</html>
